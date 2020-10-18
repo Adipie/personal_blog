@@ -1,0 +1,25 @@
+import React from 'react';
+import bea from '../images/bea.png'
+import SectionTitle from '../components/section_title'
+
+function About() {
+    return <div>
+                <div id="left">
+                    <img src={bea} alt="profile pic" id="profile_pic" />
+                    <SectionTitle top="summary of" bottom="skills" />
+                </div>
+                <div id="right">
+                    <SectionTitle top="personal & proffesional" bottom="background" /> 
+                    <p className="sub_header content">I'm Adi, a software engineer, mostly experienced in the web development area. In addition to my passion 
+                    for technology and math I also raise two dogs and participate in various dog sports.</p>
+                    <p className="content">Around the 8th grade I discovered my love for math and knew this will be my direction going forward. I started working in the tech industry after 
+                        I graduated my studies of electrical engineering in 2013. My journey began at a small start up called "Matific" as a manual QA Engineer. During
+                        my time there I learned a lot about development and architecture of web applications. I was developing automated tests in Java and selenium, learning html and css in the process.
+                        By the time I left there I was a python developer, anlayzing data with pandas and managing my own machines on AWS.
+                    </p>
+                    <p></p>
+                </div>
+        </div>
+}
+
+export default About;

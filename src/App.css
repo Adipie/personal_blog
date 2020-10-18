@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Notable');
+
+.main_frame {
+  margin: auto;
+  position: relative;
+  top: 20px;
+  background-color: #C4C3D0 ;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 90vh;
+  width: 95%;
+}
+
+#logo {
+  position: absolute;
+  margin-left: 37px;
+  width: 99px;
+  height: 75px;
+  background: #676767;
+  font-family: 'Holtwood One SC';
+}
+
+#logo p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #EEEEEE;
+}
+
+#menu {
+  width: 75%;
+  float: right;
+  height: 75px;
+}
+
+#menu ul {
+  margin-top: 60px;
+}
+
+#menu li {
+  /* margin: 10px; */
+  font-family: "Notable";
+  list-style-type: none;
+  display: inline;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.content_containaer {
+  padding: 50px 37px;
+}
+
+#left {
+  float: left;
+  width: 25%;
+}
+
+#right {
+  float: right;
+  width: 75%;
+}
+
+#profile_pic {
+  width: 240px;
+  height: 167px;
+  border: 1px solid black;
+  outline: 2px solid white;
+  margin-bottom: 25px;
+}
+
+.sub_header {
+  font-style: italic;
+}
+
+p.content {
+  width: 85%;
+}
+
+.top_title {
+  font-family: 'Marck Script';
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #707070;
+  padding-bottom: 0;
+}
+
+.bottom_title {
+  font-family: 'Holtwood One SC';
+  margin-top: 0;
+  padding-top: 0;
+}
