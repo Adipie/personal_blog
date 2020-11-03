@@ -1,11 +1,11 @@
 import React from 'react';
-import bea from '../images/bea.png'
+import profile from '../images/profile.jpg'
 import SectionTitle from '../components/section_title'
 
 function About() {
     return <div>
                 <div id="left">
-                    <img src={bea} alt="profile pic" id="profile_pic" />
+                    <img src={profile} alt="profile pic" id="profile_pic" />
                     <SectionTitle top="summary of" bottom="skills" />
                 </div>
                 <div id="right">
