@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
-@import url('https://fonts.googleapis.com/css?family=Notable');
+
 
 .main_frame {
   margin: auto;
@@ -13,23 +13,7 @@
   width: 95%;
 }
 
-#logo {
-  position: absolute;
-  margin-left: 37px;
-  width: 99px;
-  height: 75px;
-  background: #676767;
-  font-family: 'Holtwood One SC';
-}
 
-#logo p {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  color: #EEEEEE;
-}
 
 #menu {
   width: 75%;
@@ -39,15 +23,6 @@
 
 #menu ul {
   margin-top: 60px;
-}
-
-#menu li {
-  /* margin: 10px; */
-  font-family: "Notable";
-  list-style-type: none;
-  display: inline;
-  text-decoration: underline;
-  font-size: 12px;
 }
 
 .container:before,
