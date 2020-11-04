@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
-@import url('https://fonts.googleapis.com/css?family=Notable');
+
 
 .main_frame {
+  max-width: 1300px;
   margin: auto;
   position: relative;
   top: 20px;
@@ -11,43 +12,6 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 90vh;
   width: 95%;
-}
-
-#logo {
-  position: absolute;
-  margin-left: 37px;
-  width: 99px;
-  height: 75px;
-  background: #676767;
-  font-family: 'Holtwood One SC';
-}
-
-#logo p {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  color: #EEEEEE;
-}
-
-#menu {
-  width: 75%;
-  float: right;
-  height: 75px;
-}
-
-#menu ul {
-  margin-top: 60px;
-}
-
-#menu li {
-  /* margin: 10px; */
-  font-family: "Notable";
-  list-style-type: none;
-  display: inline;
-  text-decoration: underline;
-  font-size: 12px;
 }
 
 .container:before,
@@ -62,16 +26,7 @@
 
 .content_containaer {
   padding: 50px 37px;
-}
-
-#left {
-  float: left;
-  width: 25%;
-}
-
-#right {
-  float: right;
-  width: 75%;
+  position: relative;
 }
 
 #profile_pic {
@@ -102,4 +57,11 @@ p.content {
   font-family: 'Holtwood One SC';
   margin-top: 0;
   padding-top: 0;
+}
+
+@media screen and (max-width: 960px) {
+ .main_frame {
+   width: 90vw;
+   height: fit-content;
+ }
 }
