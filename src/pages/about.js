@@ -1,12 +1,15 @@
 import React from 'react';
 import profile from '../images/profile.jpg'
 import SectionTitle from '../components/section_title'
+import './About.css'
 
 function About() {
-    return <div>
+    return <div className="about_content">
                 <div id="left">
                     <img src={profile} alt="profile pic" id="profile_pic" />
-                    <SectionTitle top="summary of" bottom="skills" />
+                    <div className="skill_summary">
+                        <SectionTitle top="summary of" bottom="skills" />   
+                    </div>
                 </div>
                 <div id="right">
                     <SectionTitle top="personal & proffesional" bottom="background" /> 

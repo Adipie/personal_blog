@@ -1,0 +1,39 @@
+.about_content {
+    position: absolute;
+    left: 3%;
+    z-index: 100;
+}
+
+#left {
+    float: left;
+    width: 25%;
+}
+  
+#right {
+    float: right;
+    width: 75%;
+  }
+
+  #profile_pic {
+    width: 240px;
+    height: 167px;
+    border: 1px solid black;
+    outline: 2px solid white;
+    margin-bottom: 25px;
+  }
+
+  @media screen and (max-width: 960px) {
+      #left, #right {
+          float: none;
+          position: relative;
+      }
+
+      .about_content {
+          position: relative;
+          left: 10%;
+      }
+
+      .skill_summary {
+          display: none;
+      }
+  }

@@ -4,6 +4,7 @@
 
 
 .main_frame {
+  max-width: 1300px;
   margin: auto;
   position: relative;
   top: 20px;
@@ -11,18 +12,6 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 90vh;
   width: 95%;
-}
-
-
-
-#menu {
-  width: 75%;
-  float: right;
-  height: 75px;
-}
-
-#menu ul {
-  margin-top: 60px;
 }
 
 .container:before,
@@ -37,16 +26,7 @@
 
 .content_containaer {
   padding: 50px 37px;
-}
-
-#left {
-  float: left;
-  width: 25%;
-}
-
-#right {
-  float: right;
-  width: 75%;
+  position: relative;
 }
 
 #profile_pic {
@@ -77,4 +57,11 @@ p.content {
   font-family: 'Holtwood One SC';
   margin-top: 0;
   padding-top: 0;
+}
+
+@media screen and (max-width: 960px) {
+ .main_frame {
+   width: 90vw;
+   height: fit-content;
+ }
 }

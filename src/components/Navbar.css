@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Notable');
 
-.navbar {
+  .navbar {
     height: 80px;
     display: flex;
     justify-content: center;
@@ -21,7 +21,6 @@
   .container {
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 50px;
@@ -30,7 +29,7 @@
   
   .navbar-logo {
         position: absolute;
-        margin-left: 37px;
+        /* margin-left: 37px; */
         width: 99px;
         height: 75px;
         background: #676767;
@@ -48,7 +47,7 @@
   }
   
   .nav-menu {
-    width: 60%;
+    width: 55%;
     float: right;
     height: 75px;
     display: flex;
@@ -64,8 +63,8 @@
     border-bottom: 2px solid transparent;
   }
   
-  .nav-item:hover {
-    border-bottom: 2px solid #f00946;
+  .nav-links:hover {
+    color: gray;
   }
   
   .nav-links {
@@ -122,7 +121,7 @@
     }
   
     .nav-links:hover {
-      color: #f00946;
+      color: gray;
       transform: scale(1.2);
       transition: all 0.3s ease;
     }
@@ -139,7 +138,6 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(25%, 50%);
     }
   
     .menu-icon {
