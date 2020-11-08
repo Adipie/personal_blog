@@ -29,14 +29,6 @@
   position: relative;
 }
 
-#profile_pic {
-  width: 240px;
-  height: 167px;
-  border: 1px solid black;
-  outline: 2px solid white;
-  margin-bottom: 25px;
-}
-
 .sub_header {
   font-style: italic;
 }

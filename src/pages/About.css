@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
 .about_content {
+    font-family: "Rubik";
     position: absolute;
     left: 3%;
     z-index: 100;
