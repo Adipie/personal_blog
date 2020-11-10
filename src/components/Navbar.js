@@ -27,10 +27,6 @@ function NavBar() {
         </div>
     
     </>
-    
-    // <div id="menu">
-               
-    //        </div>
 }
 
 export default NavBar;
